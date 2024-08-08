@@ -3968,4 +3968,4 @@ znjson = ">=0.2,<0.3"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.12"
-content-hash = "03a978dbfdd8b3ed0b6b039da427ff9754d9fb9139dd412911b5d0e201345d20"
+content-hash = "625418d6ccb936e498183da8ee07ed597ec5149165cb35de86d89f6907f4b6ec"
