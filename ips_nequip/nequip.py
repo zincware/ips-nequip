@@ -67,6 +67,8 @@ class Nequip(MLModel):
     device: str = zntrack.meta.Text("cuda" if torch.cuda.is_available() else "cpu")
     remove_processed_dataset = True
 
+    _module_ = "ips_nequip"
+
     def _post_init_(self):
         """Post init hook."""
         if not self.state.loaded:

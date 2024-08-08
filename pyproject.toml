@@ -1,3 +1,20 @@
+[tool.poetry]
+name = "ips-nequip"
+version = "0.1.0"
+description = ""
+authors = ["PythonFZ <fabian.zills@web.de>"]
+readme = "README.md"
+
 [tool.poetry.dependencies]
+python = ">=3.10,<3.12"
 mir-allegro = { git = "https://github.com/mir-group/allegro.git"}
 nequip = "^0.5.6"
+ipsuite = "^0.1.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
