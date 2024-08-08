@@ -1,0 +1,3 @@
+[tool.poetry.dependencies]
+mir-allegro = { git = "https://github.com/mir-group/allegro.git"}
+nequip = "^0.5.6"
